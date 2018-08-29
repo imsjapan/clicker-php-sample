@@ -9,6 +9,11 @@
     $ git clone https://github.com/IMSGlobal/caliper-php.git
     ~~~
 
+## MySQL データベースの作成
+
+$ mysql -u <user> -p 
+mysql> CREATE DATABASE example CHARACTER SET utf8mb4;
+
 ## mysqli データコネクタの追加
 
     $ move DataConnector_mysqli.php.addme vendor/imsglobal/lti/src/ToolProvider/DataConnector/
