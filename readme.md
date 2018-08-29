@@ -10,7 +10,11 @@
 ## MySQL データベースの作成
 
     $ mysql -u <user> -p 
-    mysql> CREATE DATABASE example CHARACTER SET utf8mb4;
+    mysql> CREATE DATABASE clicker CHARACTER SET utf8mb4;
+
+## MySQL LTIテーブルの作成
+
+    $ mysql -u <user> -p clicker < lti2_tables.sql
 
 ## mysqli データコネクタの追加
 
@@ -39,7 +43,7 @@
     ~~~
     $ php artisan key:generate
     ~~~
-1. データベースのテーブルを初期化
+1. データベースのクリッカー関連テーブルを作成
     ~~~
     $ php artisan migrate
     ~~~
