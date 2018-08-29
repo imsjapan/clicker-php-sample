@@ -5,8 +5,6 @@
     ~~~
     $ cd path/to/imsjapan
     $ git clone https://github.com/IMSJapan/clicker-php-sample.git
-    $ cd ../imsglobal
-    $ git clone https://github.com/IMSGlobal/caliper-php.git
     ~~~
 
 ## MySQL データベースの作成
