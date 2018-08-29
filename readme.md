@@ -11,8 +11,8 @@
 
 ## MySQL データベースの作成
 
-$ mysql -u <user> -p 
-mysql> CREATE DATABASE example CHARACTER SET utf8mb4;
+    $ mysql -u <user> -p 
+    mysql> CREATE DATABASE example CHARACTER SET utf8mb4;
 
 ## mysqli データコネクタの追加
 
