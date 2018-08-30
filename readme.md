@@ -55,15 +55,16 @@
 
 下記のエラーが表示される際には，接続ユーザの認証プラグインが mysql_native_password のユーザを作成し，接続する必要があります．
 (caching_sha2_password 認証プラグインをサポートしていないため．)
-    ~~~
-      1   PDOException::("PDO::__construct(): The server requested authentication method unknown to the client [caching_sha2_password]")
-    ~~~
+
+
+    1   PDOException::("PDO::__construct(): The server requested authentication method unknown to the client [caching_sha2_password]")
+
 
 my.cnf を以下のように設定後に MySQL を再起動
-    ~~~
-    [mysqld] 
+
+    [mysqld]
     default_authentication_plugin=mysql_native_password
-    ~~~
+
 
 以降，新しくユーザを作成は，認証プラグインに mysql_native_password が設定される．
 
