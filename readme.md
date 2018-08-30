@@ -18,11 +18,16 @@
 
 ## mysqli データコネクタの追加
 
-    $ move DataConnector_mysqli.php.addme vendor/imsglobal/lti/src/ToolProvider/DataConnector/
+    $ mv DataConnector_mysqli.php.addme vendor/imsglobal/lti/src/ToolProvider/DataConnector/DataConnector_mysqli.php
 
 ## LTI修正ファイルで上書き
 
     $ mv OAuthSignatureMethod.php.moveme vendor/imsglobal/lti/src/OAuth/OAuthSignatureMethod.php
+
+
+## Caliper修正ファイルで上書き
+
+    $ mv HttpRequestor.php.moveme vendor/imsglobal/caliper/lib/Caliper/request/HttpRequestor.php
 
 ## PhpStorm を用いた環境構築
 
