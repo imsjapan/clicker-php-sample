@@ -66,7 +66,6 @@ class ImsToolProvider extends ToolProvider {
     }
 
     function onError() {
-//        return false;
     }
 
 }

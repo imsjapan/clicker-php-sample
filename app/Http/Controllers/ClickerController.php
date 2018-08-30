@@ -39,8 +39,6 @@ class ClickerController extends Controller
         // Get active item
         $active_clicker_item = $this->clickerItemService->getClickerItemByResourceLinkIdAndStatus($resourceLinkId, 'ONGOING'); // Only first item
         $answers = array();
-//        die(var_dump($ltiLaunch));
-//        die($active_clicker_item);
         if (!empty($active_clicker_item))
         {
             // If active items exists
